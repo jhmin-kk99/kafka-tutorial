@@ -11,7 +11,7 @@ kafka-tutorial
    
 *Start the ZooKeeper service*   
    
-<For windows>
+> For windows   
 
 ```
 C:GO TO KAFKA DIR>.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
@@ -35,7 +35,7 @@ topic demo
 C:GO TO KAFKA DIR>.\bin\windows\kafka-console-consumer.bat --topic topic_demo --from-beginning --bootstrap-server localhost:9092
 ```
 
-<For Mac>   
+> For Mac      
       
 Go to a link 
 [https://kafka.apache.org/quickstart]
